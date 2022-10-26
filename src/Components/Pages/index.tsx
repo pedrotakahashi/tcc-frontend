@@ -1,5 +1,14 @@
-const Component = () => {
-  return <h4>componente da pagina</h4>;
-};
+import SideMenu from "./SideMenu";
+import Content from "./Content";
 
-export default Component;
+import "./styles.css";
+export const Main = () => {
+  return (
+    <>
+      <div className="main-content">
+        <SideMenu />
+        <Content />
+      </div>
+    </>
+  );
+};
