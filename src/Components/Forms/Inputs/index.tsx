@@ -2,21 +2,20 @@ import { AiFillQuestionCircle } from "react-icons/ai";
 
 import "./styles.css";
 
-interface InputType {
+interface IInput {
   text?: string;
   tooltipText: string;
   placeholder: string;
 }
 
-const Input = ({ text, tooltipText, placeholder }: InputType) => {
+const Input = ({ text, tooltipText, placeholder }: IInput) => {
   return (
     <>
       <div className="input-content">
         <form>
           <label className="label-input">
-            {text}{" "}
-            <span data-tooltip={tooltipText}>
-              <AiFillQuestionCircle />
+            <span data-tooltip={tooltipText} className="label-span">
+              <AiFillQuestionCircle /> {text}
             </span>
             <br />
           </label>

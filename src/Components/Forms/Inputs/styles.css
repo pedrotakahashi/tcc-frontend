@@ -1,5 +1,13 @@
+@font-face {
+  font-family: Inter;
+  src: url(../../../Assets/Inter.ttf);
+}
+
 .label-input {
   display: flex;
+}
+.label-span {
+  font-family: "Inter";
 }
 
 input {
@@ -7,6 +15,10 @@ input {
   border-radius: 10px;
   width: 50vw;
   height: 2vw;
+}
+
+input::placeholder {
+  padding-left: 1vw;
 }
 
 [data-tooltip] {

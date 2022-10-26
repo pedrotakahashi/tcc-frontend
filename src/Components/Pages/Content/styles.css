@@ -1,6 +1,11 @@
 .conteudo {
   display: flex;
   flex-direction: column;
-  margin-top: 10vh;
-  margin-left: 4vh;
+  padding-top: 15vh;
+  margin: 0 auto;
+}
+
+.buttons-form {
+  display: flex;
+  justify-content: center;
 }
