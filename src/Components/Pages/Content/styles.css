@@ -1,11 +1,20 @@
-.conteudo {
-  display: flex;
-  flex-direction: column;
-  padding-top: 15vh;
-  margin: 0 auto;
+.main-container{
+  border: solid;
+  border-color: #a3b4ce;
+  max-width: 20vw;
+  width: 20vw;
+  height: 60vh;
+  margin-top: 5vh;
 }
 
-.buttons-form {
+.content-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+
+.button-form{
   display: flex;
   justify-content: center;
 }
