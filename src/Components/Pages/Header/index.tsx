@@ -7,7 +7,7 @@ return (
       <div className="back-header">
         <div className="content-header">
           <SiWebpack className="header-icon" id="header-icon" />
-          <span> FCT-SCRAPPER</span>
+          <span> FCT-SCRAPER</span>
         </div>
      </div>
     </>
