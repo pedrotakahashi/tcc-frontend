@@ -23,7 +23,7 @@
   color: rgb(50, 81, 221);
 }
 
-@media (min-width: 374px) and (max-width: 767px){ 
+@media (min-width: 255px) and (max-width: 767px){ 
   .btn-mobile{
     width: 100%;
   }
