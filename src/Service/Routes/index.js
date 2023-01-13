@@ -6,8 +6,8 @@ const ProjectRoutes = () => {
    return(
     <BrowserRouter>
            <Routes>
-                <Route element = { <HomePage /> }  path="/" />
-                <Route element = { <ScraperPage/> }  path={"/scraper"} />
+                <Route component = { <HomePage /> }  path="/" />
+                <Route component = { <ScraperPage/> }  path="/scraper" />
             </Routes>
     </BrowserRouter>
        
