@@ -32,7 +32,7 @@ const HomeContent = () => {
             </Col>
           </Row>
           <Row className="d-flex justify-content-center"> 
-            <a href="/scraper" className="d-flex justify-content-center"> 
+            <a href="#/scraper" className="d-flex justify-content-center"> 
               <MdScreenSearchDesktop size={75} color="#007bff"/>
             </a>
               Acesse o FCT Scraper
