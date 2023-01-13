@@ -27,11 +27,11 @@ const ScraperContent = () => {
             <Form>
               <Form.Group>
                 <Form.Label>URL</Form.Label>
-                <Form.Control placeholder="www.google.com" value="urlInput" />
+                <Form.Control placeholder="www.google.com" id="urlInput" />
               </Form.Group>
               <Form.Group className='mt-3'>
                 <Form.Label>Palavra Chave</Form.Label>
-                <Form.Control placeholder="Ministério" value="passwordInput" />
+                <Form.Control placeholder="Ministério" id="passwordInput" />
               </Form.Group>
             </Form>
           </Col>
