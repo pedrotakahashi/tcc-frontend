@@ -14,8 +14,10 @@ const HomeContent = () => {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Sobre o Sistema</Accordion.Header>
                 <Accordion.Body>
-                  O Fct Scraper é um projeto de TCC, criado para fins de pesquisa. Seu propósito é a busca rapida por artigos e noticias
-                  utilizando-se de uma palavra chave em específico.
+                  O Fct Scraper é um projeto de TCC, criado para fins de pesquisa.<br/>
+                  Seu propósito é a utilização da raspagem de dados para buscar artigos e noticias
+                  utilizando-se de uma palavra chave em específico.<br/>
+                  Através dessa busca, o sistema retornará um arquivo contendo todos os artigos que possuem essa palavra chave <br />
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">

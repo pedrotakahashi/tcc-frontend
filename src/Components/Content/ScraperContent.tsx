@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import { AiOutlineFileSearch } from "react-icons/ai";
 import { BsFileEarmarkSpreadsheetFill } from "react-icons/bs";
 import "./styles.css";
-import { Container } from "react-bootstrap";
+import { Accordion, Container } from "react-bootstrap";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import Form from 'react-bootstrap/Form';
@@ -24,6 +24,16 @@ const ScraperContent = () => {
        <Container className="main-container">
         <Row bsPrefix="content-page">
           <Col md={6} sm={12} xxs={12}>
+          <Accordion defaultActiveKey="0" flush>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>Utilizando o Sistema</Accordion.Header>
+                <Accordion.Body>
+                  Abaixo temos 2 campos de entrada, sendo o primeiro a url a qual iremos inserir nosso site de pesquisa<br />
+                  O segundo campo iremos inserir a palavra chave que desejamos procurar<br />
+                  O botão de Download fica disponivel após procurarmos pela palavra chave <br />
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
             <Form>
               <Form.Group>
                 <Form.Label>URL</Form.Label>
