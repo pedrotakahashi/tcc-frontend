@@ -15,9 +15,9 @@ const ScraperContent = () => {
     enable === false? setEnable(true): setEnable(false) ;
   }
 
-  const verifySearchButton = (event:any) =>{
+  // const verifySearchButton = (event:any) =>{
 
-  }
+  // }
 
   return (
     <>
