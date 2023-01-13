@@ -5,7 +5,7 @@ import Menu from "../../Components/Menu";
 export const HomePage = () => {
   return (
     <>
-        <Header headerName={"FCT SCRAPER"}/>
+        <Header headerName={"FCT SCRAPER "}/>
         <Menu />
         <HomeContent />
     </>
