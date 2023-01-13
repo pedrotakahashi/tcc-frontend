@@ -11,7 +11,7 @@ const Menu = () =>{
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
                     <Nav>
                         <Nav.Link href={process.env.PUBLIC_URL +'/'}>Inicio</Nav.Link>
-                        <Nav.Link href={process.env.PUBLIC_URL +'scraper'}>Buscar</Nav.Link>
+                        <Nav.Link href={process.env.PUBLIC_URL +'/scraper'}>Buscar</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
